@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(204, 230, 204);
+}
+h1{
+    background-color:rgb(230, 189, 173);
+    color: rgb(10, 2, 2);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+} 
+h2{
+    background-color:rgb(224, 190, 146);
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+li{
+    color: rgb(10, 2, 2);
+    /* margin-left: 500px; */
+     font-family: Garamond, "Times New Roman", serif; 
+     font-size: 13pt;
+     font-weight: bold;
+     margin: 5px;
+ 
+    padding-top: 10px;
+    
+}
+img{
+    width:70%;
+    text-align: center;
+    border: 5px dotted lightcoral;
+}
+#chicken88_pic{
+    width: 30%;
+    border: 5px dotted lightcoral;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.gg{
+background-color: rgb(209, 172, 117);
+    
+    margin-left: 30px;
+}
+
+a:link{
+    color: #ff5100;
+}
+a:visited{
+    color: #d1a82c;
+}
+a:hover{
+    color: rgb(189, 89, 50);
+}
+
+#one{
+    position: absolute;
+    top: 500px;
+    left:220px ;
+}
+.flex_container{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:flex-end;
+    
+}
+.flex_container > div{
+    width: 400px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.left_page{
+     text-align: left;
+}
+
+div{
+    text-align: left;
+}
+@media only screen and (max-width:767px){
+    #chicken88_pic{
+        margin-left: 300px;
+    }
+    
+}
+@media only screen and (max-width:991px){
+    #chicken88_pic{
+        margin-left: 200px;
+    }
+    
+}
